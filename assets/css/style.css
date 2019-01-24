@@ -6,6 +6,25 @@ body{
 	margin:0;
 }
 
+a{
+	text-decoration: none;
+    color:#666666;
+    padding:20px;
+    margin:20px;
+}
+
+a:hover{
+	color:red;
+}
+
+a:active{
+	color:green;
+}
+
+a:visited{
+	color:blue;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -20,7 +39,8 @@ h1 {
 }
 
 #navbar {
-    list-style: none;
+    margin:20px;
+    padding: 20px;
     float: right;
 }
 
