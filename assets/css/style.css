@@ -59,7 +59,8 @@ h1 {
 .button{
     background-color:#4aaaa5;
     color:#ffffff;
-    padding:20px;
+    padding:20px 40px;
+    font-size: 12pt;
 }
 
 #mainfooter {
