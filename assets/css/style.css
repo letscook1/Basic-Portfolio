@@ -38,6 +38,14 @@ p {
     padding: 0px;
 }
 
+.topsection {
+    width: 960px;
+    background-color:#ffffff;
+    position: static;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #myname {
     background-color:#4aaaa5;
     color:#ffffff;
