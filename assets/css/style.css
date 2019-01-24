@@ -21,10 +21,6 @@ a:active{
 	color:green;
 }
 
-a:visited{
-	color:blue;
-}
-
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -49,6 +45,13 @@ h1 {
     width: 960px;
     text-align: left;
 }
+
+#mypicture {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
 
 #mainheader{
     background-color:#ffffff;
@@ -89,4 +92,7 @@ h1 {
     padding-top: 40px;
     border-top: solid #4aaaa5 8px;
     box-sizing:border-box;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 0;
 }
