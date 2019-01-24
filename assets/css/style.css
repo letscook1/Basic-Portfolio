@@ -10,24 +10,43 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#mainheader {
+#myname {
     background-color:#4aaaa5;
     color:#ffffff;
    
 }
 
 #navbar {
-
+    list-style: none;
 }
 
 .maincontent {
     width: 960px;
+    text-align: left;
 }
 
-#subheader{
+#mainheader{
     background-color:#ffffff;
     border-color:#cccccc;
     color:#4aaaa5;
+}
+
+.myform{
+	padding:20px;
+}
+
+.myform .form-group{
+    padding-bottom:15px;
+    margin: 40px;
+}
+
+.myform label{
+	display:block;
+}
+
+.myform input[type="text"], .myform textarea{
+	padding:8px;
+	width:100%;
 }
 
 #mainfooter {

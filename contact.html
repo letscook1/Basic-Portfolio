@@ -8,8 +8,8 @@
 
     <body>
 
-        <header id=mainheader>
-            <h1>Contact</h1>
+        <header id=myname>
+            <h1>Michelle Williams</h1>
         </header>
 
         <nav id=navbar>
@@ -18,36 +18,33 @@
             <li><a href="contact.html">Contact</a></li>
         </nav>
 
-        <form action="proncess.php" method="POST">
-                <div>
-                    <label>First Name</label>
-                    <input type="text" name="firstName" placeholder="John Smith">
+        <div class=maincontent>
+            <header id=mainheader>
+                <h1>Contact</h1>
+            </header>
+
+        
+            <form class=myform>
+                <div class=formgroup>
+                    <label>Name</label>
+                    <input type="text" name="Name" placeholder="John Smith">
                 </div>
-                <br>
-                <div>
-                    <label>Last Name</label>
-                    <input type="text" name="lastName" placeholder="example@gmail.com">
-                </div>
-                <br>
-                <div>
+               
+                <div class=formgroup>
                     <label>Email</label>
-                    <input type="email" name="email">
+                    <input type="email" name="email" placeholder="example@gmail.com">
                 </div>
-                <br>
-                <div>
+               
+                <div class=formgroup>
                     <label>Message</label>
                     <textarea name="Message"></textarea>
                 </div>
             
-                <br>
-                  
-                    <br>
-                    <input type="submit" name="submit" value="Submit">
+                <input class="button" type="submit" name="Submit" value="Submit">
             </form>
-    
-            <!-- Button -->
-            <button>Submit</button>
 
+        </div>
+        
         <footer id=mainfooter>
                 Copyright &#169;2019
         </footer>
