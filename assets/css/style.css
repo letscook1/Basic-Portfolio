@@ -1,17 +1,36 @@
 body{
-    font-color:#777777;
+    color:#777777;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    line-height:1.6em;
+	margin:0;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #mainheader {
-    background-color:#ffffff;
-    border-color:#cccccc;
+    background-color:#4aaaa5;
+    color:#ffffff;
+   
 }
 
 #navbar {
-    
+
+}
+
+.maincontent {
+    width: 960px;
+}
+
+#subheader{
+    background-color:#ffffff;
+    border-color:#cccccc;
+    color:#4aaaa5;
 }
 
 #mainfooter {
     background-color:#666666;
+    color: #ffffff;
 }
