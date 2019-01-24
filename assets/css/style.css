@@ -46,14 +46,7 @@ h1 {
     text-align: left;
 }
 
-#mypicture {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  }
-
-#mainheader{
+#mainheader {
     background-color:#ffffff;
     border-color:#cccccc;
     color:#4aaaa5;
@@ -61,7 +54,21 @@ h1 {
     padding: 20px;
 }
 
+#mypicture {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    float: left;
+}
+
+#biography {
+    float: left;
+}
+
+
 .myform{
+    clear: both;
 	padding:20px;
 }
 
@@ -87,6 +94,7 @@ h1 {
 }
 
 #mainfooter {
+    clear: both;
     background-color:#666666;
     color: #ffffff;
     padding-top: 40px;
