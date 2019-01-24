@@ -13,14 +13,19 @@ h1 {
 #myname {
     background-color:#4aaaa5;
     color:#ffffff;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
    
 }
 
 #navbar {
     list-style: none;
+    float: right;
 }
 
 .maincontent {
+    clear: both;
     width: 960px;
     text-align: left;
 }
@@ -29,6 +34,8 @@ h1 {
     background-color:#ffffff;
     border-color:#cccccc;
     color:#4aaaa5;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .myform{
@@ -49,7 +56,16 @@ h1 {
 	width:100%;
 }
 
+.button{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    padding:20px;
+}
+
 #mainfooter {
     background-color:#666666;
     color: #ffffff;
+    padding-top: 40px;
+    border-top: solid #4aaaa5 8px;
+    box-sizing:border-box;
 }
