@@ -167,33 +167,41 @@ textarea {
     font-weight: normal;
 }
 
-.outerporfolio{
-    position: relative;
-    top: 25;
-    left: 25;
-  }
-
 .portfolioimage{
-    z-index:2;
+    z-index: 2;
     width: 300px;
     margin: 25px 15px 25px 15px;
-    position: relative;
-    float:left;
 }
 
 .portfoliotitle{
-    display: inline;
+    z-index:5;
+    width: 300px;
+    display: block;
     color: #ffffff;
     background-color: #4aaaa5;
 	font-weight: normal;
-    margin: 5px 0px 5px 0px;
-    padding: 20px auto 20px auto;
-    width: 300px;
+    padding: 20px 0px 20px 0px;
     text-align: center;
+}
+.outerporfolio{
+    position: relative;
+  }
+
+.outerportfolio .portfolioimage{
+    position: relative;
+    display:block;
+
+    float:left;
+}
+
+.outerporfolio .portfoliotitle{
+
     position: absolute;
     z-index: 4;
     float: left;
     overflow: hidden;
+    top: 50%;
+    left: 50%;
 }
 
 
