@@ -6,18 +6,18 @@ body{
     margin:0;
 }
 
-a{
+.navlinks{
 	text-decoration: none;
     color:#666666;
     padding:20px;
     margin:20px;
 }
 
-a:hover{
+.navlinks:hover{
 	color:#4aaaa5;
 }
 
-a:active{
+.navlinks:active{
 	color:purple;
 }
 
@@ -61,6 +61,7 @@ hr {
     margin-right: auto;
     margin-left: auto;
     z-index:2;
+    box-sizing:border-box;
 }
 
 #myname {
@@ -83,11 +84,12 @@ hr {
     clear: both;
     width: 100%; 
     height: 100%;
-    background-image:url('../images/marblebackground.jpg');
+    background-image:url('../images/white-waves.png');
     background-repeat: repeat;
     position:relative;
     z-index:1;
     overflow: hidden;
+    border-top: solid 2px #cccccc;
 }
 
 
