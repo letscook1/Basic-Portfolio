@@ -22,7 +22,7 @@ a:active{
 }
 
 .button:hover{
-    color:red;
+    color:#777777;
 }
 
 .button:active{
@@ -144,11 +144,11 @@ textarea {
 }
 
 .portfolioimage{
-    position: relative;
+    position: static;
     z-index:2;
     width: 275px;
     padding: 0px;
-    margin: 0px 30px 30px 0px;
+    margin: 15px 15px 15px 15px;
     float: left;
     overflow: hidden;
 }
