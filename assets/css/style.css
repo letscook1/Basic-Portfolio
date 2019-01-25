@@ -143,14 +143,20 @@ textarea {
     font-weight: normal;
 }
 
+.image-outer-wrapper .image-wrapper {
+    margin: 0 5px 0 5px;
+    position: relative;
+    float: left;
+    text-decoration: none;
+    overflow: hidden;
+}
+
 .portfolioimage{
-    position: static;
     z-index:2;
     width: 275px;
-    padding: 0px;
     margin: 15px 15px 15px 15px;
-    float: left;
-    overflow: hidden;
+    position: relative;
+    float:left;
 }
 
 .bannertitle{
