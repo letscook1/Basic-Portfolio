@@ -66,11 +66,13 @@ p {
     clear: both;
     width: 100%; 
     height: 100%;
-    background-image:linear-gradient(black, white);
-    background-repeat: no-repeat;
+    background-image:url('../images/marblebackground.jpg');
+    background-repeat: repeat;
     position:relative;
     z-index:1;
+    overflow: hidden;
 }
+
 
 .box1{
     width: 960px;
@@ -79,16 +81,17 @@ p {
     background-color:#ffffff;
     margin-top: 80px;
     margin-right: auto;
-    margin-bottom: auto;
+    margin-bottom: 0;
     margin-left: auto;
-    border-color: solid #cccccc 5em;
+    padding-bottom: 0;
+    border-color: solid #cccccc 2px;
     box-sizing:border-box;
     z-index:2;
+    overflow:hidden;
 }
 
 #mainheader {
     background-color:#ffffff;
-    border-color:#cccccc;
     color:#4aaaa5;
     box-sizing: border-box;
     padding: 20px;
@@ -118,19 +121,19 @@ p {
 }
 
 .myform label{
-	display:block;
+    display:block;
 }
 
 .myform input[type="text"], .myform textarea{
-	padding:15px;
-    width:100%;
+    padding:15px;
+    width:96%;
     margin:10px 0px 10px 0px;
 }
 
 .button{
     background-color:#4aaaa5;
     color:#ffffff;
-    padding:20px 40px;
+    padding:10px 20px;
     font-size: 12pt;
     border: solid #666666;
 }
@@ -145,4 +148,6 @@ p {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     bottom: 0;
+    overflow:hidden;
+    z-index: 3;
 }
