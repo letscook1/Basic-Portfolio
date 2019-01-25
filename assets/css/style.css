@@ -14,7 +14,7 @@ a{
 }
 
 a:hover{
-	color:red;
+	color:#4aaaa5;
 }
 
 a:active{
@@ -22,14 +22,14 @@ a:active{
 }
 
 .button:hover{
-    color:red;
+    color:#4aaaa5;
 }
 
 .button:active{
     color:green;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -136,6 +136,20 @@ p {
     padding:10px 20px;
     font-size: 12pt;
     border: solid #666666;
+    font-weight: normal;
+}
+
+.portfolioimage{
+    z-index:2;
+}
+
+.bannertitle{
+    color: #ffffff;
+    background-color: #4aaaa5;
+	font-weight: normal;
+    margin: 5px 0px 5px 0px;
+    z-index: 5;
+    text-align: center;
 }
 
 #mainfooter {
