@@ -71,6 +71,7 @@ hr {
     box-sizing: border-box;
     padding: 20px;
     float: left;
+    position: absolute;
     overflow: hidden;
 }
 
