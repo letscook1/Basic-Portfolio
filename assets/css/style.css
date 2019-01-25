@@ -167,6 +167,12 @@ textarea {
     font-weight: normal;
 }
 
+.outerporfolio{
+    position: relative;
+    top: 25;
+    left: 25;
+  }
+
 .portfolioimage{
     z-index:2;
     width: 300px;
@@ -175,7 +181,8 @@ textarea {
     float:left;
 }
 
-.bannertitle{
+.portfoliotitle{
+    display: inline;
     color: #ffffff;
     background-color: #4aaaa5;
 	font-weight: normal;
