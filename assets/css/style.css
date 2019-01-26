@@ -167,20 +167,8 @@ textarea {
     font-weight: normal;
 }
 
-.portfoliotitle{
-    z-index:5;
-    width: 300px;
-    display: block;
-    color: #ffffff;
-    background-color: #4aaaa5;
-	font-weight: normal;
-    padding: 20px 0px 20px 0px;
-    text-align: center;
-}
-
 .portfoliolink{
     position: relative;
-    z-index:2;
     margin: 20px;
     width: 45%;
     float:left;
@@ -191,15 +179,16 @@ textarea {
     float:right;
 }
 
-.outerporfolio .portfoliotitle{
-
-    position: absolute;
-    display:block;
-    z-index: 4;
-    float: left;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
+.portfoliotitle{
+    width: 100%;
+    display: block;
+    color: #ffffff;
+    background-color: #4aaaa5;
+	font-weight: normal;
+    padding: 20px 0px;
+    text-align: center;
+    position:absolute;
+    bottom: 8px;
 }
 
 
