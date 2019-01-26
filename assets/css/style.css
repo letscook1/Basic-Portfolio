@@ -181,10 +181,10 @@ textarea {
 .portfoliolink{
     position: relative;
     z-index:2;
-    margin-bottom: 20px;
+    margin: 20px;
     width: 45%;
     float:left;
-    height:300px;
+    height:250px;
 }
 
 .portfoliolink:nth-of-type(even){
